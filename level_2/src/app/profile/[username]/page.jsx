@@ -1,9 +1,14 @@
 import React from 'react'
 
-const page = () => {
+async function page({params}){
+    const {username} = await params
+
   return (
-    <div>
-      <h1>Profile UserName section</h1>
+    <div> 
+        <h1> 
+            this is profile page of {username}
+        </h1>
+      
     </div>
   )
 }
