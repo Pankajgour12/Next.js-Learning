@@ -1,9 +1,7 @@
-'use client'
+"use client"
 import Link from 'next/link'
 import React, { use } from 'react'
-import about from '../app/about/page.jsx'
-import contect from '../app/contect/page.jsx'
-import courses from './courses/page.jsx'
+
 import { useRouter } from 'next/navigation.js'
 
 const page = () => {
